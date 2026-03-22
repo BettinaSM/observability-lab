@@ -1,0 +1,19 @@
+{
+  "title": "Infrastructure Overview",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "CPU Usage",
+      "targets": [
+        { "expr": "cpu_usage" }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Memory Usage",
+      "targets": [
+        { "expr": "memory_usage" }
+      ]
+    }
+  ]
+}
