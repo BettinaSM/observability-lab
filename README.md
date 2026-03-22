@@ -1,5 +1,5 @@
 ![Observability](https://img.shields.io/badge/Observability-Lab-blue)
-# 📊 Observability Lab (Prometheus + Grafana + Logs)
+# 📊 Observability Lab: Metrics, Logs and Security Analysis (Prometheus + Grafana)
 
 ## 🔍 Overview
 
