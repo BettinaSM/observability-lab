@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Observability-Lab-blue
+![Observability](https://img.shields.io/badge/Observability-Lab-blue)
 # 📊 Observability Lab (Prometheus + Grafana + Logs)
 
 ## 🔍 Overview
