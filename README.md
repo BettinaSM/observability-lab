@@ -1,22 +1,72 @@
-## 📊 Observability Lab
+# 📊 Observability Lab
 
-This project simulates monitoring and observability of a hybrid infrastructure environment including Linux, AIX and Windows systems.
+## 🔍 Overview
 
-## 🔍 What is covered
+This project simulates observability in a hybrid infrastructure environment including Linux, AIX and Windows systems.
 
-- Metrics collection (Prometheus)
-- Visualization (Grafana)
-- Log analysis (Linux, AIX, Windows)
-- Simulated alerting scenarios
+It demonstrates how metrics, logs and monitoring concepts can be applied in enterprise scenarios.
 
-## 🚨 Scenarios
+---
 
-- CPU spike detection
-- Suspicious login attempts
-- Resource saturation
+## ⚙️ Components
+
+- Prometheus (metrics collection - simulated)
+- Grafana (visualization - dashboard structure)
+- Exporters (simulated metrics for Linux, AIX and Windows)
+- Logs (security events simulation)
+
+---
+
+## 📊 Metrics
+
+- CPU usage
+- Memory usage
+- Disk usage
+
+---
+
+## 📜 Logs Analysis
+
+Includes simulated logs for:
+
+- Linux (auth.log)
+- AIX (secure.log)
+- Windows (event logs)
+
+---
+
+## 🚨 Scenarios Simulated
+
+### 1. CPU Spike
+High CPU usage detected through metrics
+
+### 2. Suspicious Login Attempts
+Multiple failed login attempts detected in logs
+
+### 3. Resource Saturation
+High memory and disk usage
+
+---
 
 ## 🧠 What I Learned
 
-- Difference between monitoring and observability
-- Importance of metrics, logs and correlation
-- How to detect anomalies in infrastructure environments
+- Difference between monitoring and observability  
+- Importance of metrics, logs and correlation  
+- Detection of anomalies in infrastructure environments  
+- Basic alerting concepts and thresholds  
+
+---
+
+## 🔐 Security Perspective
+
+This project also demonstrates how observability contributes to:
+
+- Threat detection  
+- Incident investigation  
+- Infrastructure visibility  
+
+---
+
+## 💡 Key Takeaway
+
+Observability is not just about monitoring systems, but understanding system behavior and detecting anomalies across infrastructure layers.
