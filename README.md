@@ -60,6 +60,12 @@ High memory and disk usage indicating risk
 
 ---
 
+## 🚨 Alerting (Simulated)
+
+Basic alert scenarios are defined to simulate detection of abnormal system behavior.
+
+---
+
 ## 🔗 Correlation Example
 
 A spike in CPU usage combined with repeated failed login attempts may indicate:
