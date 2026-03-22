@@ -27,6 +27,22 @@ It demonstrates how metrics and logs can be combined to detect anomalies, securi
 
 ---
 
+## 🔍 Investigation Flow
+
+This project follows a basic observability investigation approach:
+
+1. Metrics indicate abnormal behavior (e.g., CPU spike)
+2. Logs are analyzed to identify possible causes
+3. Events are correlated to confirm anomalies or security incidents
+
+Example:
+
+- High CPU usage detected
+- Multiple failed login attempts in logs
+- Possible brute force attack identified
+
+---
+
 ## 📊 Metrics Collected
 
 - CPU usage
@@ -64,6 +80,15 @@ High memory and disk usage indicating risk
 ## 🚨 Alerting (Simulated)
 
 Basic alert scenarios are defined to simulate detection of abnormal system behavior.
+
+---
+
+## 🧪 How to Use This Lab
+
+1. Review metrics in exporters/
+2. Identify abnormal values (CPU, memory, disk)
+3. Navigate to logs/ to investigate events
+4. Correlate metrics and logs to understand system behavior
 
 ---
 
