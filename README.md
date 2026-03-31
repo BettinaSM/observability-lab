@@ -1,7 +1,7 @@
 ![Observability](https://img.shields.io/badge/Observability-Lab-blue)
 # 📊 Observability Lab: Metrics, Logs and Security Analysis (Prometheus + Grafana)
 
-## 🔍 Overview
+##  Overview
 
 This project simulates observability in a hybrid enterprise environment, covering Linux, AIX and Windows systems.
 
@@ -9,7 +9,7 @@ It demonstrates how metrics and logs can be combined to detect anomalies, securi
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Simulate infrastructure monitoring across multiple operating systems
 - Demonstrate observability concepts (metrics + logs correlation)
@@ -18,7 +18,7 @@ It demonstrates how metrics and logs can be combined to detect anomalies, securi
 
 ---
 
-## ⚙️ Architecture
+##  Architecture
 
 - Prometheus (metrics collection - simulated)
 - Grafana (dashboard visualization)
@@ -27,7 +27,7 @@ It demonstrates how metrics and logs can be combined to detect anomalies, securi
 
 ---
 
-## 🔍 Investigation Flow
+##  Investigation Flow
 
 This project follows a basic observability investigation approach:
 
@@ -43,7 +43,7 @@ Example:
 
 ---
 
-## 📊 Metrics Collected
+##  Metrics Collected
 
 - CPU usage
 - Memory usage
@@ -51,7 +51,7 @@ Example:
 
 ---
 
-## 📜 Logs Analyzed
+##  Logs Analyzed
 
 ### Linux
 - SSH authentication logs (auth.log)
@@ -64,26 +64,26 @@ Example:
 
 ---
 
-## 🚨 Scenarios Simulated
+##  Scenarios Simulated
 
-### 🔥 1. CPU Spike
+###  1. CPU Spike
 High CPU usage detected through metrics
 
-### 🔐 2. Brute Force Attempt
+###  2. Brute Force Attempt
 Multiple failed login attempts identified in logs
 
-### ⚠️ 3. Resource Saturation
+###  3. Resource Saturation
 High memory and disk usage indicating risk
 
 ---
 
-## 🚨 Alerting (Simulated)
+##  Alerting (Simulated)
 
 Basic alert scenarios are defined to simulate detection of abnormal system behavior.
 
 ---
 
-## 🧪 How to Use This Lab
+##  How to Use This Lab
 
 1. Review metrics in exporters/
 2. Identify abnormal values (CPU, memory, disk)
@@ -92,7 +92,7 @@ Basic alert scenarios are defined to simulate detection of abnormal system behav
 
 ---
 
-## 🔗 Correlation Example
+##  Correlation Example
 
 A spike in CPU usage combined with repeated failed login attempts may indicate:
 
@@ -102,7 +102,7 @@ A spike in CPU usage combined with repeated failed login attempts may indicate:
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - Difference between monitoring and observability  
 - Importance of correlating metrics and logs  
@@ -111,7 +111,7 @@ A spike in CPU usage combined with repeated failed login attempts may indicate:
 
 ---
 
-## 🔐 Security Perspective
+##  Security Perspective
 
 This project highlights how observability supports:
 
@@ -122,6 +122,6 @@ This project highlights how observability supports:
 
 ---
 
-## 💡 Key Takeaway
+##  Key Takeaway
 
 Observability is not only about collecting data, but understanding system behavior and detecting risks across infrastructure layers.
